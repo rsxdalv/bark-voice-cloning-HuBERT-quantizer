@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='bark_hubert_quantizer',
-    version='0.0.1',
+    version='0.0.2',
     packages=['bark_hubert_quantizer'],
     install_requires=[
         'audiolm-pytorch==1.1.4',
