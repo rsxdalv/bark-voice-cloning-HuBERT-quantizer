@@ -10,11 +10,11 @@ setup(
     install_requires=[
         # 'audiolm-pytorch',
         # 'fairseq',
-        # 'huggingface-hub',
-        # 'sentencepiece',
-        # 'transformers',
+        'huggingface-hub',
+        'sentencepiece',
+        'transformers',
         'encodec',
-        # 'soundfile; platform_system == "Windows"',
-        # 'sox; platform_system != "Windows"'
+        'soundfile; platform_system == "Windows"',
+        'sox; platform_system != "Windows"'
     ],
 )
