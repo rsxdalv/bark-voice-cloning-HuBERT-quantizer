@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='bark_hubert_quantizer',
     version='0.0.1',
-    packages=['hubert'],
+    packages=['bark_hubert_quantizer'],
     install_requires=[
         'audiolm-pytorch==1.1.4',
         'fairseq',
