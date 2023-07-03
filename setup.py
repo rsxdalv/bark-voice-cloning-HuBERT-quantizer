@@ -8,8 +8,8 @@ setup(
     # author_email='your@email.com',
     packages=['hubert'],
     install_requires=[
-        # 'audiolm-pytorch',
-        # 'fairseq',
+        'audiolm-pytorch',
+        'fairseq',
         'huggingface-hub',
         'sentencepiece',
         'transformers',
